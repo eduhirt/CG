@@ -1,0 +1,1079 @@
+# depslib dependency file v1.0
+1354894491 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\application.cpp
+	<SCV/SCV.h>
+	"Application.h"
+	"MenuBar.h"
+	"Properties.h"
+	"SpecializedProperties.h"
+	"PropertiesManager.h"
+	"Pallete.h"
+	"GroupObjectWrapper.h"
+	"DesignPreview.h"
+	"CodeViewer.h"
+
+1354645579 r.h"
+
+1354649784 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\scv.h
+	"stdafx.h"
+	"Kernel.h"
+	"Button.h"
+	"Canvas.h"
+	"CheckBox.h"
+	"ColorPicker.h"
+	"ComboBox.h"
+	"ContextMenu.h"
+	"FileOpen.h"
+	"GlslShader.h"
+	"Image.h"
+	"InternalFrame.h"
+	"InternalFrameHolder.h"
+	"Label.h"
+	"Mathematic.h"
+	"MenuBar.h"
+	"ProgressBar.h"
+	"RadioButton.h"
+	"ScrollComponent.h"
+	"Separator.h"
+	"Singleton.h"
+	"Slider.h"
+	"StateButton.h"
+	"TabbedPane.h"
+	"Table.h"
+	"util.h"
+	"GenericTree.h"
+	"GenericNode.h"
+	"GroupLayout.h"
+	"SequentialGroup.h"
+	"ParallelGroup.h"
+
+1354649784 roup.h"
+
+1354650497 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\stdafx.h
+	<windows.h>
+	<tchar.h>
+	<unistd.h>
+	<dirent.h>
+	<errno.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glext.h>
+	<algorithm>
+	<iostream>
+	<fstream>
+	<sstream>
+	<memory>
+	<string>
+	<vector>
+	<queue>
+	<cmath>
+	<list>
+	<map>
+	<cstdio>
+	<cassert>
+	<ctime>
+
+1354645579 
+
+1111005060 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\gl\glew.h
+	<stddef.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107038120 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107038120 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\gl\gl.h
+
+1066747314 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1066747314 ext.h"
+
+1307692032 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1315179512 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1107038120 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\gl\glext.h
+	<windows.h>
+
+1354670540 >
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\kernel.h
+	"Singleton.h"
+	"FontTahoma.h"
+	"Component.h"
+	"ComponentTexture.h"
+	"Panel.h"
+	"ScrollComponent.h"
+	"Scissor.h"
+	"ContextMenu.h"
+	"InternalFrame.h"
+	"Cursor.h"
+	"Timer.h"
+	"ColorScheme.h"
+
+1354645578 me.h"
+
+1354645580 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\singleton.h
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\fonttahoma.h
+	"Singleton.h"
+	"ComponentTexture.h"
+
+1354645578 Texture.h"
+
+1354645580 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\componenttexture.h
+	"Point.h"
+	"ColorRGBA.h"
+	"MatrixTemplate.h"
+
+1354645580 plate.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\point.h
+	"stdafx.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\colorrgba.h
+	"stdafx.h"
+
+1354810358 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\matrixtemplate.h
+	"Point.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\component.h
+	"SCVCallbacks.h"
+	"Point.h"
+	"Scissor.h"
+
+1354645580 "
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\scvcallbacks.h
+	"MouseEvent.h"
+	"KeyEvent.h"
+
+1354645578 h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\mouseevent.h
+	"Point.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\keyevent.h
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\scissor.h
+	"Singleton.h"
+	"Point.h"
+
+1354645580 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\panel.h
+	"ComponentTexture.h"
+	"Component.h"
+
+1354645579 .h"
+
+1354645580 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\scrollcomponent.h
+	"Panel.h"
+	"Component.h"
+	"ComponentTexture.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\contextmenu.h
+	"Label.h"
+	"Texture2D.h"
+	"PopupMenuStyle.h"
+
+1354645578 Style.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\label.h
+	"Component.h"
+	"ComponentTexture.h"
+	"FontTahoma.h"
+	"Color4f.h"
+	"ColorScheme.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\color4f.h
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\colorscheme.h
+	"Singleton.h"
+	"Color4f.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\texture2d.h
+	"TextureInterface.h"
+	"MatrixTemplate.h"
+	"ColorRGBA.h"
+
+1354645580 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\textureinterface.h
+	"Point.h"
+	"MatrixTemplate.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\popupmenustyle.h
+	"Point.h"
+	"ComponentTexture.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\internalframe.h
+	"Label.h"
+	"Component.h"
+	"ComponentTexture.h"
+	"Panel.h"
+	"Timer.h"
+
+1354645580 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\timer.h
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\cursor.h
+	"Singleton.h"
+	"Point.h"
+	"ColorScheme.h"
+	"ComponentTexture.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\button.h
+	"Label.h"
+	"StaticLabel.h"
+	"ComponentTexture.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\staticlabel.h
+	"FontTahoma.h"
+	"Color4f.h"
+	"ColorScheme.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\canvas.h
+	<SCV/SCV.h>
+
+1354645580 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\checkbox.h
+	"StateButton.h"
+	"Label.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\statebutton.h
+	"ButtonGroup.h"
+
+1354645579 up.h"
+
+1354645580 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\buttongroup.h
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\colorpicker.h
+	"MatrixTemplate.h"
+	"ToggleButton.h"
+	"Panel.h"
+	"Spinner.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\togglebutton.h
+	"StateButton.h"
+	"Button.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\spinner.h
+	"TextField.h"
+	"Counter.h"
+	"Timer.h"
+	"TextFilter.h"
+	"Panel.h"
+	"GroupLayout.h"
+
+1354645579 ut.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\textfield.h
+	"TextBox.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\textbox.h
+	"Component.h"
+	"ComponentTexture.h"
+	"TextFilter.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\textfilter.h
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\counter.h
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\grouplayout.h
+	"Panel.h"
+	"ParallelGroup.h"
+	"SequentialGroup.h"
+
+1354645579 lGroup.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\parallelgroup.h
+	"Group.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\group.h
+	"Spring.h"
+	"Component.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\spring.h
+	<climits>
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\sequentialgroup.h
+	"Group.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\combobox.h
+	"Button.h"
+	"ContextMenu.h"
+
+1354645579 nu.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\fileopen.h
+	"Singleton.h"
+	<string>
+
+1354645580 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\glslshader.h
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\image.h
+	"Panel.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\internalframeholder.h
+	"Singleton.h"
+	"MouseEvent.h"
+	"KeyEvent.h"
+
+1354645580 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\mathematic.h
+	"Point.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\menubar.h
+	"Panel.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\progressbar.h
+	"Label.h"
+	"Counter.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\radiobutton.h
+	"StateButton.h"
+	"Label.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\separator.h
+	"MatrixTemplate.h"
+	"Component.h"
+	"ComponentTexture.h"
+
+1354645580 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\slider.h
+	"Component.h"
+	"ComponentTexture.h"
+	"Counter.h"
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\tabbedpane.h
+	"Panel.h"
+	"Component.h"
+	"ComponentTexture.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\table.h
+	"MatrixTemplate.h"
+	"Panel.h"
+	"TextBox.h"
+	"Button.h"
+	"GroupLayout.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\util.h
+
+1354645578 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\generictree.h
+	"GenericNode.h"
+	"Component.h"
+	"ComponentTexture.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\genericnode.h
+	<string>
+	<vector>
+
+1354645577 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\application.h
+	"Properties.h"
+	"GroupPanelWrapper.h"
+	"ComponentSelector.h"
+	"CodeGenerator.h"
+	"ObjectEditor.h"
+	"CodeViewer.h"
+	<vector>
+
+1354645576 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\properties.h
+	"PropertieOption.h"
+
+1354645576 Option.h"
+
+1354670540 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\propertieoption.h
+	<string>
+	<SCV/SCV.h>
+
+1354645576 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\grouppanelwrapper.h
+	"GroupPanel.h"
+	"ParallelGroupPanel.h"
+	"SequentialGroupPanel.h"
+	"GroupObjectWrapper.h"
+
+1354645577 ctWrapper.h"
+
+1354645577 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\grouppanel.h
+	"SCV/Group.h"
+	"GroupObjectWrapper.h"
+
+1354645576 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\groupobjectwrapper.h
+
+1354645576 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\parallelgrouppanel.h
+	"GroupPanel.h"
+
+1354645577 l.h"
+
+1354645576 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\sequentialgrouppanel.h
+	"GroupPanel.h"
+
+1354645577 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\componentselector.h
+	"GroupPanel.h"
+
+1354645577 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\codegenerator.h
+	"ManagedComponent.h"
+
+1354645577 mponent.h"
+
+1354645576 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\managedcomponent.h
+
+1354645576 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\objecteditor.h
+
+1354645576 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\codeviewer.h
+	"GroupPanelWrapper.h"
+
+1354645576 lWrapper.h"
+
+1354645576 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\menubar.h
+
+1354858195 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\specializedproperties.h
+	"Properties.h"
+
+1354645577 s.h"
+
+1354894480 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\propertiesmanager.h
+	"Properties.h"
+	"SpecializedProperties.h"
+	"CodeGenerator.h"
+
+1354645576 ator.h"
+
+1354645577 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\pallete.h
+
+1354645576 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\designpreview.h
+	"GroupPanelWrapper.h"
+
+1354645577 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\codeviewer.cpp
+	<SCV/SCV.h>
+	"CodeViewer.h"
+	"CodeGenerator.h"
+
+1354645576 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\componentselector.cpp
+	<SCV/SCV.h>
+	"ComponentSelector.h"
+	"Application.h"
+	"CodeGenerator.h"
+
+1354645577 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\designpreview.cpp
+	<SCV/SCV.h>
+	"DesignPreview.h"
+	"CodeGenerator.h"
+
+1354645576 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\grouppanel.cpp
+	<SCV/SCV.h>
+	"GroupPanel.h"
+	"GroupPanelWrapper.h"
+	"GroupObjectWrapper.h"
+	<SCV/ParallelGroup.h>
+	<SCV/SequentialGroup.h>
+	"Application.h"
+	"CodeGenerator.h"
+
+1354645577 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\grouppanelwrapper.cpp
+	<SCV/SCV.h>
+	"GroupPanelWrapper.h"
+
+1354645576 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\managedcomponent.cpp
+	<SCV/SCV.h>
+	"ManagedComponent.h"
+	"CodeGenerator.h"
+
+1354645577 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\menubar.cpp
+	<SCV/SCV.h>
+	"MenuBar.h"
+	"CodeGenerator.h"
+	"ObjectEditor.h"
+
+1354852959 tor.h"
+
+1354645577 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\objecteditor.cpp
+	<SCV/SCV.h>
+	"ObjectEditor.h"
+	"Application.h"
+	"PropertiesManager.h"
+
+1354645577 sManager.h"
+
+1354853186 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\palletecomponents.cpp
+	<SCV/SCV.h>
+	"PalleteComponents.h"
+	"Application.h"
+
+1354852964 on.h"
+
+1354645576 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\palletecomponents.h
+	"GroupPanelWrapper.h"
+
+1354645577 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\parallelgrouppanel.cpp
+	<SCV/SCV.h>
+	"ParallelGroupPanel.h"
+
+1354645576 roupPanel.h"
+
+1354645577 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\propertieoption.cpp
+	<SCV/SCV.h>
+	"PropertieOption.h"
+	"Properties.h"
+
+1354645577 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\properties.cpp
+	<SCV/SCV.h>
+	"Properties.h"
+	"Application.h"
+
+1354645577 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\propertiesmanager.cpp
+	"PropertiesManager.h"
+
+1354645577 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\sequentialgrouppanel.cpp
+	<SCV/SCV.h>
+	"SequentialGroupPanel.h"
+	"CodeGenerator.h"
+
+1354645576 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\specializedproperties.cpp
+	<SCV/SCV.h>
+	"SpecializedProperties.h"
+	"CodeGenerator.h"
+
+1354645576 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\main.cpp
+	<SCV/SCV.h>
+	"Application.h"
+	"Properties.h"
+	<SCV/GapSpring.h>
+	"GroupPanelWrapper.h"
+	"SequentialGroupPanel.h"
+	"ParallelGroupPanel.h"
+
+1354645579 c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\include\scv\gapspring.h
+	"Spring.h"
+
+1354895175 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\codegenerator.cpp
+	<SCV/SCV.h>
+	"CodeGenerator.h"
+	"Application.h"
+
+1354852959 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\groupobjectwrapper.cpp
+	<SCV/SCV.h>
+	"GroupObjectWrapper.h"
+	"CodeGenerator.h"
+	"ObjectEditor.h"
+
+1354852964 source:c:\users\leonardo\dropbox\scv 4.2.1\scv 4.2.1\scv 4.2.1\interfacedesigner\src_id\pallete.cpp
+	<SCV/SCV.h>
+	"GroupPanelWrapper.h"
+	"Pallete.h"
+	"PalleteComponents.h"
+	"Application.h"
+
+1354905290 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/Application.cpp
+	<SCV/SCV.h>
+	"Application.h"
+	"MenuBar.h"
+	"Properties.h"
+	"SpecializedProperties.h"
+	"PropertiesManager.h"
+	"Pallete.h"
+	"GroupObjectWrapper.h"
+	"DesignPreview.h"
+	"CodeViewer.h"
+
+1354660584 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/SCV.h
+	"stdafx.h"
+	"Kernel.h"
+	"Button.h"
+	"Canvas.h"
+	"CheckBox.h"
+	"ColorPicker.h"
+	"ComboBox.h"
+	"ContextMenu.h"
+	"FileOpen.h"
+	"GlslShader.h"
+	"Image.h"
+	"InternalFrame.h"
+	"InternalFrameHolder.h"
+	"Label.h"
+	"Mathematic.h"
+	"MenuBar.h"
+	"ProgressBar.h"
+	"RadioButton.h"
+	"ScrollComponent.h"
+	"Separator.h"
+	"Singleton.h"
+	"Slider.h"
+	"StateButton.h"
+	"TabbedPane.h"
+	"Table.h"
+	"util.h"
+	"GenericTree.h"
+	"GenericNode.h"
+	"GroupLayout.h"
+	"SequentialGroup.h"
+	"ParallelGroup.h"
+
+1354661296 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/stdafx.h
+	<windows.h>
+	<tchar.h>
+	<unistd.h>
+	<dirent.h>
+	<errno.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glext.h>
+	<algorithm>
+	<iostream>
+	<fstream>
+	<sstream>
+	<memory>
+	<string>
+	<vector>
+	<queue>
+	<cmath>
+	<list>
+	<map>
+	<cstdio>
+	<cassert>
+	<ctime>
+
+1111012260 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/GL/glew.h
+	<stddef.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107048920 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/GL/glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107048920 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/GL/gl.h
+
+1066758114 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/GL/freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1307699232 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/GL/freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1315186712 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/GL/freeglut_ext.h
+	<stdarg.h>
+
+1107048920 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/GL/glext.h
+	<windows.h>
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Kernel.h
+	"Singleton.h"
+	"FontTahoma.h"
+	"Component.h"
+	"ComponentTexture.h"
+	"Panel.h"
+	"ScrollComponent.h"
+	"Scissor.h"
+	"ContextMenu.h"
+	"InternalFrame.h"
+	"Cursor.h"
+	"Timer.h"
+	"ColorScheme.h"
+
+1354656380 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Singleton.h
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/FontTahoma.h
+	"Singleton.h"
+	"ComponentTexture.h"
+
+1354656380 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/ComponentTexture.h
+	"Point.h"
+	"ColorRGBA.h"
+	"MatrixTemplate.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Point.h
+	"stdafx.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/ColorRGBA.h
+	"stdafx.h"
+
+1354821158 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/MatrixTemplate.h
+	"Point.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Component.h
+	"SCVCallbacks.h"
+	"Point.h"
+	"Scissor.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/SCVCallbacks.h
+	"MouseEvent.h"
+	"KeyEvent.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/MouseEvent.h
+	"Point.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/KeyEvent.h
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Scissor.h
+	"Singleton.h"
+	"Point.h"
+
+1354656380 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Panel.h
+	"ComponentTexture.h"
+	"Component.h"
+
+1354656380 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/ScrollComponent.h
+	"Panel.h"
+	"Component.h"
+	"ComponentTexture.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/ContextMenu.h
+	"Label.h"
+	"Texture2D.h"
+	"PopupMenuStyle.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Label.h
+	"Component.h"
+	"ComponentTexture.h"
+	"FontTahoma.h"
+	"Color4f.h"
+	"ColorScheme.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Color4f.h
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/ColorScheme.h
+	"Singleton.h"
+	"Color4f.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Texture2D.h
+	"TextureInterface.h"
+	"MatrixTemplate.h"
+	"ColorRGBA.h"
+
+1354656380 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/TextureInterface.h
+	"Point.h"
+	"MatrixTemplate.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/PopupMenuStyle.h
+	"Point.h"
+	"ComponentTexture.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/InternalFrame.h
+	"Label.h"
+	"Component.h"
+	"ComponentTexture.h"
+	"Panel.h"
+	"Timer.h"
+
+1354656380 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Timer.h
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Cursor.h
+	"Singleton.h"
+	"Point.h"
+	"ColorScheme.h"
+	"ComponentTexture.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Button.h
+	"Label.h"
+	"StaticLabel.h"
+	"ComponentTexture.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/StaticLabel.h
+	"FontTahoma.h"
+	"Color4f.h"
+	"ColorScheme.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Canvas.h
+	<SCV/SCV.h>
+
+1354656380 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/CheckBox.h
+	"StateButton.h"
+	"Label.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/StateButton.h
+	"ButtonGroup.h"
+
+1354656380 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/ButtonGroup.h
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/ColorPicker.h
+	"MatrixTemplate.h"
+	"ToggleButton.h"
+	"Panel.h"
+	"Spinner.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/ToggleButton.h
+	"StateButton.h"
+	"Button.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Spinner.h
+	"TextField.h"
+	"Counter.h"
+	"Timer.h"
+	"TextFilter.h"
+	"Panel.h"
+	"GroupLayout.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/TextField.h
+	"TextBox.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/TextBox.h
+	"Component.h"
+	"ComponentTexture.h"
+	"TextFilter.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/TextFilter.h
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Counter.h
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/GroupLayout.h
+	"Panel.h"
+	"ParallelGroup.h"
+	"SequentialGroup.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/ParallelGroup.h
+	"Group.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Group.h
+	"Spring.h"
+	"Component.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Spring.h
+	<climits>
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/SequentialGroup.h
+	"Group.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/ComboBox.h
+	"Button.h"
+	"ContextMenu.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/FileOpen.h
+	"Singleton.h"
+	<string>
+
+1354656380 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/GlslShader.h
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Image.h
+	"Panel.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/InternalFrameHolder.h
+	"Singleton.h"
+	"MouseEvent.h"
+	"KeyEvent.h"
+
+1354656380 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Mathematic.h
+	"Point.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/MenuBar.h
+	"Panel.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/ProgressBar.h
+	"Label.h"
+	"Counter.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/RadioButton.h
+	"StateButton.h"
+	"Label.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Separator.h
+	"MatrixTemplate.h"
+	"Component.h"
+	"ComponentTexture.h"
+
+1354656380 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Slider.h
+	"Component.h"
+	"ComponentTexture.h"
+	"Counter.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/TabbedPane.h
+	"Panel.h"
+	"Component.h"
+	"ComponentTexture.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/Table.h
+	"MatrixTemplate.h"
+	"Panel.h"
+	"TextBox.h"
+	"Button.h"
+	"GroupLayout.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/util.h
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/GenericTree.h
+	"GenericNode.h"
+	"Component.h"
+	"ComponentTexture.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/GenericNode.h
+	<string>
+	<vector>
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/Application.h
+	"Properties.h"
+	"GroupPanelWrapper.h"
+	"ComponentSelector.h"
+	"CodeGenerator.h"
+	"ObjectEditor.h"
+	"CodeViewer.h"
+	<vector>
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/Properties.h
+	"PropertieOption.h"
+
+1354681340 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/PropertieOption.h
+	<string>
+	<SCV/SCV.h>
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/GroupPanelWrapper.h
+	"GroupPanel.h"
+	"ParallelGroupPanel.h"
+	"SequentialGroupPanel.h"
+	"GroupObjectWrapper.h"
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/GroupPanel.h
+	"SCV/Group.h"
+	"GroupObjectWrapper.h"
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/GroupObjectWrapper.h
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/ParallelGroupPanel.h
+	"GroupPanel.h"
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/SequentialGroupPanel.h
+	"GroupPanel.h"
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/ComponentSelector.h
+	"GroupPanel.h"
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/CodeGenerator.h
+	"ManagedComponent.h"
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/ManagedComponent.h
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/ObjectEditor.h
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/CodeViewer.h
+	"GroupPanelWrapper.h"
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/MenuBar.h
+
+1354868904 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/SpecializedProperties.h
+	"Properties.h"
+
+1354905280 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/PropertiesManager.h
+	"Properties.h"
+	"SpecializedProperties.h"
+	"CodeGenerator.h"
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/Pallete.h
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/DesignPreview.h
+	"GroupPanelWrapper.h"
+
+1354915983 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/CodeGenerator.cpp
+	<SCV/SCV.h>
+	"CodeGenerator.h"
+	"Application.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/CodeViewer.cpp
+	<SCV/SCV.h>
+	"CodeViewer.h"
+	"CodeGenerator.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/ComponentSelector.cpp
+	<SCV/SCV.h>
+	"ComponentSelector.h"
+	"Application.h"
+	"CodeGenerator.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/DesignPreview.cpp
+	<SCV/SCV.h>
+	"DesignPreview.h"
+	"CodeGenerator.h"
+
+1354863758 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/GroupObjectWrapper.cpp
+	<SCV/SCV.h>
+	"GroupObjectWrapper.h"
+	"CodeGenerator.h"
+	"ObjectEditor.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/GroupPanel.cpp
+	<SCV/SCV.h>
+	"GroupPanel.h"
+	"GroupPanelWrapper.h"
+	"GroupObjectWrapper.h"
+	<SCV/ParallelGroup.h>
+	<SCV/SequentialGroup.h>
+	"Application.h"
+	"CodeGenerator.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/GroupPanelWrapper.cpp
+	<SCV/SCV.h>
+	"GroupPanelWrapper.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/ManagedComponent.cpp
+	<SCV/SCV.h>
+	"ManagedComponent.h"
+	"CodeGenerator.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/MenuBar.cpp
+	<SCV/SCV.h>
+	"MenuBar.h"
+	"CodeGenerator.h"
+	"ObjectEditor.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/ObjectEditor.cpp
+	<SCV/SCV.h>
+	"ObjectEditor.h"
+	"Application.h"
+	"PropertiesManager.h"
+
+1354863764 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/Pallete.cpp
+	<SCV/SCV.h>
+	"GroupPanelWrapper.h"
+	"Pallete.h"
+	"PalleteComponents.h"
+	"Application.h"
+
+1354656376 /home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/PalleteComponents.h
+	"GroupPanelWrapper.h"
+
+1354863986 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/PalleteComponents.cpp
+	<SCV/SCV.h>
+	"PalleteComponents.h"
+	"Application.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/ParallelGroupPanel.cpp
+	<SCV/SCV.h>
+	"ParallelGroupPanel.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/PropertieOption.cpp
+	<SCV/SCV.h>
+	"PropertieOption.h"
+	"Properties.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/Properties.cpp
+	<SCV/SCV.h>
+	"Properties.h"
+	"Application.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/PropertiesManager.cpp
+	"PropertiesManager.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/SequentialGroupPanel.cpp
+	<SCV/SCV.h>
+	"SequentialGroupPanel.h"
+	"CodeGenerator.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/SpecializedProperties.cpp
+	<SCV/SCV.h>
+	"SpecializedProperties.h"
+	"CodeGenerator.h"
+
+1354656376 source:/home/lquatrin/Área de Trabalho/SCV 4.2.1/InterfaceDesigner/src_id/main.cpp
+	<SCV/SCV.h>
+	"Application.h"
+	"Properties.h"
+	<SCV/GapSpring.h>
+	"GroupPanelWrapper.h"
+	"SequentialGroupPanel.h"
+	"ParallelGroupPanel.h"
+
+1354656378 /home/lquatrin/Área de Trabalho/SCV 4.2.1/include/SCV/GapSpring.h
+	"Spring.h"
+

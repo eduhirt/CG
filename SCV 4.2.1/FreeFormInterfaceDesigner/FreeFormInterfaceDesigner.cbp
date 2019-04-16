@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="FreeFormInterfaceDesigner" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="DebugWin32">
+				<Option platforms="Windows;" />
+				<Option output="..\bin\win32\Debug\FreeFormInterfaceDesigner" prefix_auto="1" extension_auto="1" />
+				<Option object_output="..\obj\win32\Debug\FreeForm" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="libscv-debug32.a" />
+					<Add library="libfreeglut.a" />
+					<Add library="libfreeglut_static.a" />
+					<Add library="libglew32.a" />
+					<Add library="libglu32.a" />
+					<Add library="libopengl32.a" />
+					<Add directory="..\lib\win32" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseWin32">
+				<Option platforms="Windows;" />
+				<Option output="..\bin\win32\Release\FreeFormInterfaceDesigner" prefix_auto="1" extension_auto="1" />
+				<Option object_output="..\obj\win32\Release\FreeForm" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Option projectLinkerOptionsRelation="2" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libscv-release32.a" />
+					<Add library="libfreeglut.a" />
+					<Add library="libfreeglut_static.a" />
+					<Add library="libglew32.a" />
+					<Add library="libglu32.a" />
+					<Add library="libopengl32.a" />
+					<Add directory="..\lib\win32" />
+				</Linker>
+			</Target>
+			<Target title="DebugLinux">
+				<Option platforms="Unix;" />
+				<Option output="..\bin\linux\Debug\FreeFormInterfaceDesigner" prefix_auto="1" extension_auto="1" />
+				<Option object_output="..\obj\linux\Debug\FreeForm" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lGL -lGLU -lglut -lGLEW" />
+					<Add library="libscv-debug.a" />
+					<Add directory="..\lib\linux" />
+				</Linker>
+			</Target>
+			<Target title="ReleaseLinux">
+				<Option platforms="Unix;" />
+				<Option output="..\bin\linux\Release\FreeFormInterfaceDesigner" prefix_auto="1" extension_auto="1" />
+				<Option object_output="..\obj\linux\Release\FreeForm" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lGL -lGLU -lglut -lGLEW" />
+					<Add library="libscv-release.a" />
+					<Add directory="..\lib\linux" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-std=c++0x" />
+			<Add directory="..\include" />
+		</Compiler>
+		<Linker>
+			<Add directory="..\lib" />
+		</Linker>
+		<Unit filename="src\AbstractWindow.cpp" />
+		<Unit filename="src\AbstractWindow.h" />
+		<Unit filename="src\Application.cpp" />
+		<Unit filename="src\Application.h" />
+		<Unit filename="src\CodeGenerator.cpp" />
+		<Unit filename="src\CodeGenerator.h" />
+		<Unit filename="src\InterfaceDesign.cpp" />
+		<Unit filename="src\InterfaceDesign.h" />
+		<Unit filename="src\ManagedComponent.cpp" />
+		<Unit filename="src\ManagedComponent.h" />
+		<Unit filename="src\MenuDesign.cpp" />
+		<Unit filename="src\MenuDesign.h" />
+		<Unit filename="src\main.cpp" />
+		<Unit filename="src\stdafx.cpp" />
+		<Unit filename="src\stdafx.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

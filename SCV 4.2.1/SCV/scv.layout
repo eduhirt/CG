@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="ReleaseWin32" />
+	<File name="src\Button.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="294" topLine="0" />
+	</File>
+	<File name="src\ButtonGroup.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="348" topLine="0" />
+	</File>
+	<File name="src\CheckBox.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="3137" topLine="77" />
+	</File>
+	<File name="src\ComboBox.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="4111" topLine="117" />
+	</File>
+	<File name="src\ComboBoxMenuStyle.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1961" topLine="51" />
+	</File>
+	<File name="src\Component.cpp" open="0" top="0" tabpos="14">
+		<Cursor position="13904" topLine="439" />
+	</File>
+	<File name="src\ComponentTexture.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="378" topLine="10" />
+	</File>
+	<File name="src\ContextMenu.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="5227" topLine="164" />
+	</File>
+	<File name="src\Counter.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="400" topLine="2" />
+	</File>
+	<File name="src\Cursor.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="525" topLine="19" />
+	</File>
+	<File name="src\GenericTree.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1609" topLine="50" />
+	</File>
+	<File name="src\Group.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1138" topLine="22" />
+	</File>
+	<File name="src\InternalFrame.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1818" topLine="58" />
+	</File>
+	<File name="src\InternalFrameHolder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1838" topLine="49" />
+	</File>
+	<File name="src\Kernel.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1736" topLine="67" />
+	</File>
+	<File name="src\KeyEvent.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="210" topLine="0" />
+	</File>
+	<File name="src\Label.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1421" topLine="42" />
+	</File>
+	<File name="src\MenuBar.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="7612" topLine="179" />
+	</File>
+	<File name="src\Panel.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4463" topLine="135" />
+	</File>
+	<File name="src\PopupMenuStyle.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="1587" topLine="13" />
+	</File>
+	<File name="src\RadioButton.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="22403" topLine="374" />
+	</File>
+	<File name="src\ScrollComponent.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="302" topLine="0" />
+	</File>
+	<File name="src\Slider.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="953" topLine="26" />
+	</File>
+	<File name="src\Spinner.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="12067" topLine="312" />
+	</File>
+	<File name="src\StateButton.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="297" topLine="7" />
+	</File>
+	<File name="src\StaticLabel.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="602" topLine="11" />
+	</File>
+	<File name="src\TabbedPane.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="8525" topLine="231" />
+	</File>
+	<File name="src\Table.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="6450" topLine="231" />
+	</File>
+	<File name="src\TextBox.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4259" topLine="127" />
+	</File>
+	<File name="src\TextField.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4520" topLine="124" />
+	</File>
+	<File name="src\TextFilter.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="865" topLine="22" />
+	</File>
+	<File name="src\ToggleButton.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3072" topLine="70" />
+	</File>
+	<File name="src\VistaMenuStyle.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2786" topLine="57" />
+	</File>
+	<File name="src\documentation\mainDocumentation.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1593" topLine="66" />
+	</File>
+	<File name="..\include\SCV\Kernel.h" open="0" top="0" tabpos="0">
+		<Cursor position="360" topLine="27" />
+	</File>
+	<File name="..\include\SCV\KeyEvent.h" open="0" top="0" tabpos="11">
+		<Cursor position="413" topLine="7" />
+	</File>
+	<File name="..\include\SCV\MatrixTemplate.h" open="0" top="0" tabpos="0">
+		<Cursor position="2835" topLine="84" />
+	</File>
+	<File name="..\include\SCV\Panel.h" open="0" top="0" tabpos="0">
+		<Cursor position="462" topLine="7" />
+	</File>
+	<File name="..\include\SCV\ScrollComponent.h" open="0" top="0" tabpos="12">
+		<Cursor position="1897" topLine="64" />
+	</File>
+	<File name="..\include\SCV\Singleton.h" open="0" top="0" tabpos="0">
+		<Cursor position="50" topLine="0" />
+	</File>
+	<File name="..\include\SCV\Table.h" open="0" top="0" tabpos="10">
+		<Cursor position="1766" topLine="60" />
+	</File>
+</CodeBlocks_layout_file>
