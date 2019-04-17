@@ -9,7 +9,7 @@
 //
 //  Instruções:
 //    Para compilar em C, basta comentar o comando #define _CPP_
-//	  Para alterar a animacao, digite numeros entre 1 e 7
+//    Para alterar a animacao, digite numeros entre 1 e 7
 // *********************************************************************/
 
 
@@ -69,48 +69,48 @@ void render()
 
     //IDCT
     color(0,1,0);
-    int aux = 450/tamanho;
-    int aux2=aux+20;
+    int tam_x = 450/tamanho;
+    int aux=tam_x;
     for(int i=0;i<(tamanho-1);i++){
-        circleFill(aux2,(int)v_idct[i]+120,2,10);
-        line(aux2,(int)v_idct[i]+120,aux2+aux,(int)v_idct[i+1]+120);
-        aux2 = aux2+aux;
+        circleFill(aux,(int)v_idct[i]+120,2,10);
+        line(aux,(int)v_idct[i]+120,aux+tam_x,(int)v_idct[i+1]+120);
+        aux = aux+tam_x;
         if(i==(tamanho-2))
-            circleFill(aux2,(int)v_idct[i+1]+120,2,10);
+            circleFill(aux,(int)v_idct[i+1]+120,2,10);
     }
 
     //Amostra
     color(1,0,0);
-    aux2 = aux + 20;
+    aux = tam_x;
     for(int i=0;i<(tamanho-1);i++){
-        circleFill(aux2,(int)v_amostra[i]+370,2,10);
-        line(aux2,(int)v_amostra[i]+370,aux2+aux,(int)v_amostra[i+1]+370);
-        aux2 = aux2+aux;
+        circleFill(aux,(int)v_amostra[i]+370,2,10);
+        line(aux,(int)v_amostra[i]+370,aux+tam_x,(int)v_amostra[i+1]+370);
+        aux = aux+tam_x;
         if(i==(tamanho-2))
-            circleFill(aux2,(int)v_amostra[i+1]+370,2,10);
+            circleFill(aux,(int)v_amostra[i+1]+370,2,10);
     }
 
 
     //Diff
     color(2,5,1);
-    aux2 = aux + 520;
+    aux = tam_x + 520;
     for(int i=0;i<(tamanho-1);i++){
-        circleFill(aux2,(int)v_dif[i]+120,2,10);
-        line(aux2,(int)v_dif[i]+120,aux2+aux,(int)v_dif[i+1]+120);
-        aux2 = aux2+aux;
+        circleFill(aux,(int)v_dif[i]+120,2,10);
+        line(aux,(int)v_dif[i]+120,aux+tam_x,(int)v_dif[i+1]+120);
+        aux = aux+tam_x;
         if(i==(tamanho-2))
-            circleFill(aux2,(int)v_dif[i+1]+120,2,10);
+            circleFill(aux,(int)v_dif[i+1]+120,2,10);
     }
 
     //DCT
-    color(0,0,1);
-    aux2 = aux + 520;
+    color(0,1,1);
+    aux = tam_x + 520;
     for(int i=0;i<(tamanho-1);i++){
-        circleFill(aux2,(int)v_dct[i]+370,2,10);
-        line(aux2,(int)v_dct[i]+370,aux2+aux,(int)v_dct[i+1]+370);
-        aux2 = aux2+aux;
+        circleFill(aux,(int)v_dct[i]+370,2,10);
+        line(aux,(int)v_dct[i]+370,aux+tam_x,(int)v_dct[i+1]+370);
+        aux = aux+tam_x;
         if(i==(tamanho-2))
-            circleFill(aux2,(int)v_dct[i+1]+370,2,10);
+            circleFill(aux,(int)v_dct[i+1]+370,2,10);
     }
     
 
@@ -201,7 +201,7 @@ void dct(){
 
 //le arquivo
 void le_amostra(){
-    FILE *arq = fopen("samples.dct", "rb");
+    FILE *arq = fopen("pozzer.dct", "rb");
     if(arq != NULL){
         fread(&tamanho, sizeof(unsigned int), 1, arq);
 
@@ -213,6 +213,10 @@ void le_amostra(){
         signed short am;
         for(int i=0;i<tamanho;i++){
             fread(&am, sizeof(signed short), 1, arq);
+            if(am>100)
+                am=100;
+            if(am<-100)
+                am=-100;
             v_amostra[i]=am;
         }
     }
