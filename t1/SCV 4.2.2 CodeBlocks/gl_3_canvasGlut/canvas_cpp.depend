@@ -1,0 +1,214 @@
+# depslib dependency file v1.0
+1467405732 source:d:\ufsm\disciplinas\computacao grafica\programas\gl_3_canvasglut\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1467405838 d:\ufsm\disciplinas\computacao grafica\programas\gl_3_canvasglut\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 d:\ufsm\disciplinas\computacao grafica\programas\gl_3_canvasglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 d:\ufsm\disciplinas\computacao grafica\programas\gl_3_canvasglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426358040 d:\ufsm\disciplinas\computacao grafica\programas\gl_3_canvasglut\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1168267666 source:d:\ufsm\disciplinas\computacao grafica\programas\gl_3_canvasglut\src\relogio.cpp
+	"Relogio.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1193146156 d:\ufsm\disciplinas\computacao grafica\programas\gl_3_canvasglut\src\relogio.h
+	"gl_canvas2d.h"
+
+1490702906 source:d:\ufsm\disciplinas\computacao grafica\programas\gl_3_canvasglut\src\main_cpp.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"gl_canvas2d.h"
+	"Bola.h"
+	"Relogio.h"
+
+1490704699 d:\ufsm\disciplinas\computacao grafica\programas\gl_3_canvasglut\src\bola.h
+	"gl_canvas2d.h"
+
+1523930226 source:c:\users\vinicius\desktop\9º semestre\cg t1\gl_3_canvasglut\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1467405838 c:\users\vinicius\desktop\9º semestre\cg t1\gl_3_canvasglut\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 c:\users\vinicius\desktop\9º semestre\cg t1\gl_3_canvasglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 c:\users\vinicius\desktop\9º semestre\cg t1\gl_3_canvasglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1426358040 c:\users\vinicius\desktop\9º semestre\cg t1\gl_3_canvasglut\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1168267666 source:c:\users\vinicius\desktop\9º semestre\cg t1\gl_3_canvasglut\src\relogio.cpp
+	"Relogio.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1193146156 c:\users\vinicius\desktop\9º semestre\cg t1\gl_3_canvasglut\src\relogio.h
+	"gl_canvas2d.h"
+
+1523931399 source:c:\users\vinicius\desktop\9º semestre\cg t1\gl_3_canvasglut\src\main_cpp.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<iostream>
+	<cmath>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	"gl_canvas2d.h"
+
+1490704699 c:\users\vinicius\desktop\9º semestre\cg t1\gl_3_canvasglut\src\bola.h
+	"gl_canvas2d.h"
+
+1523930226 source:c:\users\eduar\desktop\vteixeira\gl_3_canvasglut\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1467405838 c:\users\eduar\desktop\vteixeira\gl_3_canvasglut\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 c:\users\eduar\desktop\vteixeira\gl_3_canvasglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 c:\users\eduar\desktop\vteixeira\gl_3_canvasglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1107048920 c:\users\eduar\desktop\vteixeira\gl_3_canvasglut\include\gl\gl.h
+
+1107048920 c:\users\eduar\desktop\vteixeira\gl_3_canvasglut\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1426358040 c:\users\eduar\desktop\vteixeira\gl_3_canvasglut\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1523931399 source:c:\users\eduar\desktop\vteixeira\gl_3_canvasglut\src\main_cpp.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<iostream>
+	<cmath>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	"gl_canvas2d.h"
+
+1168267666 source:c:\users\eduar\desktop\vteixeira\gl_3_canvasglut\src\relogio.cpp
+	"Relogio.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1193146156 c:\users\eduar\desktop\vteixeira\gl_3_canvasglut\src\relogio.h
+	"gl_canvas2d.h"
+
+1523930226 source:c:\users\eduar\desktop\scv 4.2.2 codeblocks\gl_3_canvasglut\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1467405838 c:\users\eduar\desktop\scv 4.2.2 codeblocks\gl_3_canvasglut\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 c:\users\eduar\desktop\scv 4.2.2 codeblocks\gl_3_canvasglut\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 c:\users\eduar\desktop\scv 4.2.2 codeblocks\gl_3_canvasglut\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1107048920 c:\users\eduar\desktop\scv 4.2.2 codeblocks\gl_3_canvasglut\include\gl\gl.h
+
+1107048920 c:\users\eduar\desktop\scv 4.2.2 codeblocks\gl_3_canvasglut\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1426358040 c:\users\eduar\desktop\scv 4.2.2 codeblocks\gl_3_canvasglut\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1168267666 source:c:\users\eduar\desktop\scv 4.2.2 codeblocks\gl_3_canvasglut\src\relogio.cpp
+	"Relogio.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1193146156 c:\users\eduar\desktop\scv 4.2.2 codeblocks\gl_3_canvasglut\src\relogio.h
+	"gl_canvas2d.h"
+
+1555469930 source:c:\users\eduar\desktop\scv 4.2.2 codeblocks\gl_3_canvasglut\src\main_cpp.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<iostream>
+	<cmath>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	"gl_canvas2d.h"
+

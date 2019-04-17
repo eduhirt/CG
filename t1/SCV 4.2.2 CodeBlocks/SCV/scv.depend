@@ -1,0 +1,641 @@
+# depslib dependency file v1.0
+1354656864 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\button.cpp
+	"SCV/stdafx.h"
+	"SCV/Button.h"
+	"SCV/Kernel.h"
+
+1354661296 c:\users\tiago\desktop\scv 4.2.1\include\scv\stdafx.h
+	<windows.h>
+	<tchar.h>
+	<unistd.h>
+	<dirent.h>
+	<errno.h>
+	<GL/glew.h>
+	<GL/freeglut.h>
+	<GL/glext.h>
+	<algorithm>
+	<iostream>
+	<fstream>
+	<sstream>
+	<memory>
+	<string>
+	<vector>
+	<queue>
+	<cmath>
+	<list>
+	<map>
+	<cstdio>
+	<cassert>
+	<ctime>
+
+1111015860 c:\users\tiago\desktop\scv 4.2.1\include\gl\glew.h
+	<stddef.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1107048920 c:\users\tiago\desktop\scv 4.2.1\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1107048920 c:\users\tiago\desktop\scv 4.2.1\include\gl\gl.h
+
+1066758114 c:\users\tiago\desktop\scv 4.2.1\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1307702832 c:\users\tiago\desktop\scv 4.2.1\include\gl\freeglut_std.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1315190312 c:\users\tiago\desktop\scv 4.2.1\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1107048920 c:\users\tiago\desktop\scv 4.2.1\include\gl\glext.h
+	<windows.h>
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\button.h
+	"Label.h"
+	"StaticLabel.h"
+	"ComponentTexture.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\label.h
+	"Component.h"
+	"ComponentTexture.h"
+	"FontTahoma.h"
+	"Color4f.h"
+	"ColorScheme.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\component.h
+	"SCVCallbacks.h"
+	"Point.h"
+	"Scissor.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\scvcallbacks.h
+	"MouseEvent.h"
+	"KeyEvent.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\mouseevent.h
+	"Point.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\point.h
+	"stdafx.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\keyevent.h
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\scissor.h
+	"Singleton.h"
+	"Point.h"
+
+1354656380 c:\users\tiago\desktop\scv 4.2.1\include\scv\singleton.h
+
+1354656380 c:\users\tiago\desktop\scv 4.2.1\include\scv\componenttexture.h
+	"Point.h"
+	"ColorRGBA.h"
+	"MatrixTemplate.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\colorrgba.h
+	"stdafx.h"
+
+1354821158 c:\users\tiago\desktop\scv 4.2.1\include\scv\matrixtemplate.h
+	"Point.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\fonttahoma.h
+	"Singleton.h"
+	"ComponentTexture.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\color4f.h
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\colorscheme.h
+	"Singleton.h"
+	"Color4f.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\staticlabel.h
+	"FontTahoma.h"
+	"Color4f.h"
+	"ColorScheme.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\kernel.h
+	"Singleton.h"
+	"FontTahoma.h"
+	"Component.h"
+	"ComponentTexture.h"
+	"Panel.h"
+	"ScrollComponent.h"
+	"Scissor.h"
+	"ContextMenu.h"
+	"InternalFrame.h"
+	"Cursor.h"
+	"Timer.h"
+	"ColorScheme.h"
+
+1354656380 c:\users\tiago\desktop\scv 4.2.1\include\scv\panel.h
+	"ComponentTexture.h"
+	"Component.h"
+
+1354656380 c:\users\tiago\desktop\scv 4.2.1\include\scv\scrollcomponent.h
+	"Panel.h"
+	"Component.h"
+	"ComponentTexture.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\contextmenu.h
+	"Label.h"
+	"Texture2D.h"
+	"PopupMenuStyle.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\texture2d.h
+	"TextureInterface.h"
+	"MatrixTemplate.h"
+	"ColorRGBA.h"
+
+1354656380 c:\users\tiago\desktop\scv 4.2.1\include\scv\textureinterface.h
+	"Point.h"
+	"MatrixTemplate.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\popupmenustyle.h
+	"Point.h"
+	"ComponentTexture.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\internalframe.h
+	"Label.h"
+	"Component.h"
+	"ComponentTexture.h"
+	"Panel.h"
+	"Timer.h"
+
+1354656380 c:\users\tiago\desktop\scv 4.2.1\include\scv\timer.h
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\cursor.h
+	"Singleton.h"
+	"Point.h"
+	"ColorScheme.h"
+	"ComponentTexture.h"
+
+1354755234 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\buttongroup.cpp
+	"SCV/stdafx.h"
+	"SCV/ButtonGroup.h"
+	"SCV/StateButton.h"
+
+1354656380 c:\users\tiago\desktop\scv 4.2.1\include\scv\buttongroup.h
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\statebutton.h
+	"ButtonGroup.h"
+
+1354656884 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\canvas.cpp
+	"SCV/stdafx.h"
+	"SCV/Canvas.h"
+	"SCV/Kernel.h"
+	<cstring>
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\canvas.h
+	<SCV/SCV.h>
+
+1354660584 c:\users\tiago\desktop\scv 4.2.1\include\scv\scv.h
+	"stdafx.h"
+	"Kernel.h"
+	"Button.h"
+	"Canvas.h"
+	"CheckBox.h"
+	"ColorPicker.h"
+	"ComboBox.h"
+	"ContextMenu.h"
+	"FileOpen.h"
+	"GlslShader.h"
+	"Image.h"
+	"InternalFrame.h"
+	"InternalFrameHolder.h"
+	"Label.h"
+	"Mathematic.h"
+	"MenuBar.h"
+	"ProgressBar.h"
+	"RadioButton.h"
+	"ScrollComponent.h"
+	"Separator.h"
+	"Singleton.h"
+	"Slider.h"
+	"StateButton.h"
+	"TabbedPane.h"
+	"Table.h"
+	"util.h"
+	"GenericTree.h"
+	"GenericNode.h"
+	"GroupLayout.h"
+	"SequentialGroup.h"
+	"ParallelGroup.h"
+
+1354656380 c:\users\tiago\desktop\scv 4.2.1\include\scv\checkbox.h
+	"StateButton.h"
+	"Label.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\colorpicker.h
+	"MatrixTemplate.h"
+	"ToggleButton.h"
+	"Panel.h"
+	"Spinner.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\togglebutton.h
+	"StateButton.h"
+	"Button.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\spinner.h
+	"TextField.h"
+	"Counter.h"
+	"Timer.h"
+	"TextFilter.h"
+	"Panel.h"
+	"GroupLayout.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\textfield.h
+	"TextBox.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\textbox.h
+	"Component.h"
+	"ComponentTexture.h"
+	"TextFilter.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\textfilter.h
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\counter.h
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\grouplayout.h
+	"Panel.h"
+	"ParallelGroup.h"
+	"SequentialGroup.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\parallelgroup.h
+	"Group.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\group.h
+	"Spring.h"
+	"Component.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\spring.h
+	<climits>
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\sequentialgroup.h
+	"Group.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\combobox.h
+	"Button.h"
+	"ContextMenu.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\fileopen.h
+	"Singleton.h"
+	<string>
+
+1354656380 c:\users\tiago\desktop\scv 4.2.1\include\scv\glslshader.h
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\image.h
+	"Panel.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\internalframeholder.h
+	"Singleton.h"
+	"MouseEvent.h"
+	"KeyEvent.h"
+
+1354656380 c:\users\tiago\desktop\scv 4.2.1\include\scv\mathematic.h
+	"Point.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\menubar.h
+	"Panel.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\progressbar.h
+	"Label.h"
+	"Counter.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\radiobutton.h
+	"StateButton.h"
+	"Label.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\separator.h
+	"MatrixTemplate.h"
+	"Component.h"
+	"ComponentTexture.h"
+
+1354656380 c:\users\tiago\desktop\scv 4.2.1\include\scv\slider.h
+	"Component.h"
+	"ComponentTexture.h"
+	"Counter.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\tabbedpane.h
+	"Panel.h"
+	"Component.h"
+	"ComponentTexture.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\table.h
+	"MatrixTemplate.h"
+	"Panel.h"
+	"TextBox.h"
+	"Button.h"
+	"GroupLayout.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\util.h
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\generictree.h
+	"GenericNode.h"
+	"Component.h"
+	"ComponentTexture.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\genericnode.h
+	<string>
+	<vector>
+
+1354755278 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\checkbox.cpp
+	"SCV/stdafx.h"
+	"SCV/CheckBox.h"
+	"SCV/Kernel.h"
+	"SCV/GlslShader.h"
+	"SCV/data.h"
+	"SCV/StaticLabel.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\data.h
+
+1354656900 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\color4f.cpp
+	"SCV/stdafx.h"
+	"SCV/Color4f.h"
+	"SCV/ColorRGBA.h"
+	<cstring>
+
+1354656906 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\colorpicker.cpp
+	"SCV/stdafx.h"
+	"SCV/ColorPicker.h"
+	"SCV/Kernel.h"
+	"SCV/util.h"
+
+1354656914 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\colorrgba.cpp
+	"SCV/stdafx.h"
+	"SCV/ColorRGBA.h"
+
+1354656918 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\colorscheme.cpp
+	"SCV/stdafx.h"
+	"SCV/ColorScheme.h"
+	"SCV/ColorRGBA.h"
+
+1354755264 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\combobox.cpp
+	"SCV/stdafx.h"
+	"SCV/ComboBox.h"
+	"SCV/Kernel.h"
+	"SCV/MenuHolder.h"
+	"SCV/data.h"
+	"SCV/StaticLabel.h"
+	"SCV/ComboBoxMenuStyle.h"
+
+1354656380 c:\users\tiago\desktop\scv 4.2.1\include\scv\menuholder.h
+	"Component.h"
+	"Singleton.h"
+	"ContextMenu.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\comboboxmenustyle.h
+	"PopupMenuStyle.h"
+	"Singleton.h"
+
+1354820894 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\comboboxmenustyle.cpp
+	"SCV/ComboBoxMenuStyle.h"
+	"SCV/StaticLabel.h"
+	"SCV/ContextMenu.h"
+	"SCV/ColorScheme.h"
+	"SCV/Kernel.h"
+	"SCV/ComboBox.h"
+
+1354851646 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\component.cpp
+	"SCV/stdafx.h"
+	"SCV/Component.h"
+	"SCV/Kernel.h"
+	"SCV/MenuHolder.h"
+	"SCV/Scissor.h"
+
+1354656964 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\componentspring.cpp
+	"SCV/stdafx.h"
+	"SCV/ComponentSpring.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\componentspring.h
+	"Spring.h"
+	"Component.h"
+
+1354820910 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\componenttexture.cpp
+	"SCV/stdafx.h"
+	"SCV/ComponentTexture.h"
+	<cstring>
+
+1354821682 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\contextmenu.cpp
+	"SCV/stdafx.h"
+	"SCV/ContextMenu.h"
+	"SCV/Kernel.h"
+	"SCV/Label.h"
+	"SCV/MenuHolder.h"
+	"SCV/VistaMenuStyle.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\vistamenustyle.h
+	"PopupMenuStyle.h"
+	"Singleton.h"
+
+1354820358 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\counter.cpp
+	"SCV/stdafx.h"
+	"SCV/Counter.h"
+	"SCV/Kernel.h"
+
+1354820988 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\cursor.cpp
+	"SCV/stdafx.h"
+	"SCV/Cursor.h"
+	"SCV/Kernel.h"
+
+1354660676 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\fileopen.cpp
+	"SCV/FileOpen.h"
+	"SCV/stdafx.h"
+	"SCV/InternalFrame.h"
+	"SCV/stdafx.h"
+	"SCV/Kernel.h"
+
+1354657078 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\font.cpp
+	"SCV/stdafx.h"
+	"SCV/Font.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\font.h
+
+1354657090 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\fonttahoma.cpp
+	"SCV/stdafx.h"
+	"SCV/FontTahoma.h"
+	"SCV/Point.h"
+	"SCV/Texture2D.h"
+	"SCV/ColorRGBA.h"
+	"SCV/Kernel.h"
+
+1354657096 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\gapspring.cpp
+	"SCV/stdafx.h"
+	"SCV/GapSpring.h"
+	"SCV/Kernel.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\gapspring.h
+	"Spring.h"
+
+1354657100 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\genericnode.cpp
+	"SCV/GenericNode.h"
+
+1354820992 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\generictree.cpp
+	"SCV/stdafx.h"
+	"SCV/Component.h"
+	"SCV/ComponentTexture.h"
+	"SCV/GenericTree.h"
+	"SCV/data.h"
+	"SCV/Image.h"
+	"SCV/ContextMenu.h"
+	"SCV/Kernel.h"
+	"SCV/StaticLabel.h"
+
+1354657112 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\glslshader.cpp
+	"SCV/stdafx.h"
+	"SCV/GlslShader.h"
+
+1354859098 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\group.cpp
+	"SCV/stdafx.h"
+	"SCV/Group.h"
+	"SCV/GapSpring.h"
+	"SCV/ComponentSpring.h"
+
+1354657128 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\grouplayout.cpp
+	"SCV/stdafx.h"
+	"SCV/GroupLayout.h"
+
+1373653034 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\image.cpp
+	"SCV/stdafx.h"
+	"SCV/Image.h"
+	"SCV/Kernel.h"
+	"SCV/ImgLoader.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\imgloader.h
+	"Singleton.h"
+
+1354657170 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\imgloader.cpp
+	"SCV/stdafx.h"
+	"SCV/ImgLoader.h"
+	"SCV/stb_image.h"
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\stb_image.h
+	<stdio.h>
+
+1354820372 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\internalframe.cpp
+	"SCV/stdafx.h"
+	"SCV/InternalFrame.h"
+	"SCV/ColorRGBA.h"
+	"SCV/MatrixTemplate.h"
+	"SCV/Kernel.h"
+	"SCV/StaticLabel.h"
+	"SCV/FontTahoma.h"
+	"SCV/data.h"
+
+1354821012 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\internalframeholder.cpp
+	"SCV/stdafx.h"
+	"SCV/InternalFrameHolder.h"
+	"SCV/InternalFrame.h"
+	"SCV/Kernel.h"
+
+1354821804 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\kernel.cpp
+	"SCV/stdafx.h"
+	"SCV/Kernel.h"
+	"SCV/FontTahoma.h"
+	"SCV/MenuHolder.h"
+	"SCV/InternalFrameHolder.h"
+	"SCV/Component.h"
+	"SCV/Keyboard.h"
+	"SCV/GlslShader.h"
+	"SCV/util.h"
+	"SCV/FileOpen.h"
+	"SCV/Mathematic.h"
+	"SCV/SCV.h"
+	<algorithm>
+	<cstring>
+
+1354656378 c:\users\tiago\desktop\scv 4.2.1\include\scv\keyboard.h
+	"Singleton.h"
+	"KeyEvent.h"
+
+1354861264 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\keyevent.cpp
+	"SCV/stdafx.h"
+	"SCV/KeyEvent.h"
+	"SCV/util.h"
+
+1354657208 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\keyboard.cpp
+	"SCV/stdafx.h"
+	"SCV/Keyboard.h"
+
+1354821654 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\label.cpp
+	"SCV/stdafx.h"
+	"SCV/Label.h"
+	"SCV/Kernel.h"
+
+1354821674 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\menubar.cpp
+	"SCV/stdafx.h"
+	"SCV/MenuBar.h"
+	"SCV/Kernel.h"
+	"SCV/MenuHolder.h"
+	"SCV/StaticLabel.h"
+
+1354657232 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\menuholder.cpp
+	"SCV/stdafx.h"
+	"SCV/MenuHolder.h"
+	"SCV/ContextMenu.h"
+
+1354657236 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\mouseevent.cpp
+	"SCV/stdafx.h"
+	"SCV/MouseEvent.h"
+	"SCV/Point.h"
+	"SCV/Kernel.h"
+
+1354820402 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\panel.cpp
+	"SCV/stdafx.h"
+	"SCV/Panel.h"
+	"SCV/Kernel.h"
+	"SCV/GroupLayout.h"
+
+1354657248 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\parallelgroup.cpp
+	"SCV/stdafx.h"
+	"SCV/ParallelGroup.h"
+
+1354657254 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\point.cpp
+	"SCV/stdafx.h"
+	"SCV/Point.h"
+	"SCV/Kernel.h"
+	"SCV/util.h"
+
+1354851046 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\popupmenustyle.cpp
+	"SCV/stdafx.h"
+	"SCV/PopupMenuStyle.h"
+	"SCV/Kernel.h"
+
+1354657266 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\progressbar.cpp
+	"SCV/stdafx.h"
+	"SCV/ProgressBar.h"
+	"SCV/Kernel.h"
+	"SCV/util.h"
+	"SCV/StaticLabel.h"
+
+1354820506 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\radiobutton.cpp
+	"SCV/stdafx.h"
+	"SCV/RadioButton.h"
+	"SCV/Kernel.h"
+	"SCV/StaticLabel.h"
+
+1354657280 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\scissor.cpp
+	"SCV/stdafx.h"
+	"SCV/Scissor.h"
+	"SCV/Kernel.h"
+	"SCV/Mathematic.h"
+	"SCV/util.h"
+
+1354861404 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\scrollcomponent.cpp
+	"SCV/stdafx.h"
+	"SCV/Kernel.h"
+	"SCV/ScrollComponent.h"
+	"SCV/data.h"
+
+1354657288 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\separator.cpp
+	"SCV/stdafx.h"
+	"SCV/Separator.h"
+	"SCV/Kernel.h"
+
+1354657292 source:c:\users\tiago\desktop\scv 4.2.1\scv\src\sequentialgroup.cpp
+	"SCV/stdafx.h"
+	"SCV/SequentialGroup.h"
+	"SCV/GapSpring.h"
+
