@@ -22,13 +22,14 @@
 #include <stdlib.h>
 #include <vector>
 #include "gl_canvas2d.h"
+#include "funcoes_cpp.h"
 
 # define M_PI           3.14159265358979323846
 
 using namespace std;
 
 //vetores
-std::vector<signed short> v_amostra;
+std::vector<signed char> v_amostra;
 std::vector<float> v_dct, v_idct, v_dif;
 
 //tamanho da amostra
@@ -66,51 +67,81 @@ void render()
     text(200,480,"Amostra:");
     text(700,480,"DCT:");
 
+    //Define a escala no eixo X
+    float tam_x = tamanho/9;
+    //Auxiliar para contagem de espaçamentos
+    float aux;
+    //Define a posição dos dados no eixo Y
+    float amostra;
+    //Auxiliar para ligação dos pontos
+    float prox_amostra;
+
+
 
     //IDCT
-    color(0,1,0);
-    int tam_x = 450/tamanho;
-    int aux=tam_x;
-    for(int i=0;i<(tamanho-1);i++){
-        circleFill(aux,(int)v_idct[i]+120,2,10);
-        line(aux,(int)v_idct[i]+120,aux+tam_x,(int)v_idct[i+1]+120);
+    color(0,0,0);
+    aux = tam_x + 20;
+
+    for(int i=0;i<(tamanho);i++){
+        amostra = v_idct[i] + 120;
+        prox_amostra = v_idct[i+1] + 120;
+
+        circleFill(aux,amostra,2,10);
+        if(i<tamanho-1){
+            line(aux,amostra,aux+tam_x,prox_amostra);
+        }
+
         aux = aux+tam_x;
-        if(i==(tamanho-2))
-            circleFill(aux,(int)v_idct[i+1]+120,2,10);
     }
+
 
     //Amostra
     color(1,0,0);
-    aux = tam_x;
-    for(int i=0;i<(tamanho-1);i++){
-        circleFill(aux,(int)v_amostra[i]+370,2,10);
-        line(aux,(int)v_amostra[i]+370,aux+tam_x,(int)v_amostra[i+1]+370);
+    aux = tam_x + 20;
+
+    for(int i=0;i<(tamanho);i++){
+        amostra = v_amostra[i] + 370;
+        prox_amostra = v_amostra[i+1] + 370;
+
+        circleFill(aux,amostra,2,10);
+        if(i<tamanho-1){
+            line(aux,amostra,aux+tam_x,prox_amostra);
+        }
+
         aux = aux+tam_x;
-        if(i==(tamanho-2))
-            circleFill(aux,(int)v_amostra[i+1]+370,2,10);
     }
 
 
     //Diff
-    color(2,5,1);
+    color(0,0,1);
     aux = tam_x + 520;
-    for(int i=0;i<(tamanho-1);i++){
-        circleFill(aux,(int)v_dif[i]+120,2,10);
-        line(aux,(int)v_dif[i]+120,aux+tam_x,(int)v_dif[i+1]+120);
+
+    for(int i=0;i<(tamanho);i++){
+        amostra = v_dif[i] + 120;
+        prox_amostra = v_dif[i+1] + 120;
+
+        circleFill(aux,amostra,2,10);
+        if(i<tamanho-1){
+            line(aux,amostra,aux+tam_x,prox_amostra);
+        }
+
         aux = aux+tam_x;
-        if(i==(tamanho-2))
-            circleFill(aux,(int)v_dif[i+1]+120,2,10);
     }
 
     //DCT
     color(0,1,1);
     aux = tam_x + 520;
-    for(int i=0;i<(tamanho-1);i++){
-        circleFill(aux,(int)v_dct[i]+370,2,10);
-        line(aux,(int)v_dct[i]+370,aux+tam_x,(int)v_dct[i+1]+370);
+
+    for(int i=0;i<(tamanho);i++){
+        amostra = v_dct[i] + 370;
+        prox_amostra = v_dct[i+1] + 370;
+
+        circleFill(aux,amostra,2,10);
+        if(i<tamanho-1){
+            line(aux,amostra,aux+tam_x,prox_amostra);
+        }
+
         aux = aux+tam_x;
-        if(i==(tamanho-2))
-            circleFill(aux,(int)v_dct[i+1]+370,2,10);
     }
     
 
@@ -143,104 +174,6 @@ void render()
 
 
 
-
-//calcula a diferença entre amostra e idct
-void calc_dif(){
-    double aux;
-    for(int i=0;i<tamanho;i++){
-        aux=fabs((double)(v_amostra[i]-v_idct[i]));
-        v_dif[i]=aux;
-    }
-}
-
-//calcula a idct
-void idct(){
-    double c; //constante
-    double pi= M_PI; //recebe valor de pi
-
-    //zera valores dos vetores
-    for(int x=0;x<tamanho;x++)
-        v_idct[x]=0;
-
-
-    for(int i=0; i<tamanho; i++){
-        if(i==0){
-            c=1/sqrt(2);
-        }
-        else{
-            c=1;
-        }
-        for(int j=0; j<tamanho; j++){
-            v_idct[i] += (double) v_dct[j] * cos((double) ((2.0*i+1) *j* pi/(2*tamanho))) *c;
-        }
-        v_idct[i] *= sqrt((double)2/tamanho);
-    }
-
-}
-
-//calcula a dct para depois calcular a idct
-void dct(){
-    double c;
-    double pi = M_PI;
-
-    for(int x=0;x<tamanho;x++)
-        v_dct[x]=0;
-
-    for(int i=0; i<tamanho; i++){
-        if(i==0)
-            c=1/sqrt(2);
-        else
-            c=1;
-
-        for(int j=0; j<tamanho; j++){
-            v_dct[i] += (double) v_amostra[j] * cos((double) ((2*j+1)*pi*i/(2*tamanho))) *c;
-        }
-    v_dct[i] *= sqrt((double)2/tamanho);
-    }
-}
-
-//le arquivo
-void le_amostra(){
-    FILE *arq = fopen("pozzer.dct", "rb");
-    if(arq != NULL){
-        fread(&tamanho, sizeof(unsigned int), 1, arq);
-
-        v_amostra.resize(tamanho);
-        v_dct.resize(tamanho);
-        v_idct.resize(tamanho);
-        v_dif.resize(tamanho);
-
-        signed short am;
-        for(int i=0;i<tamanho;i++){
-            fread(&am, sizeof(signed short), 1, arq);
-            if(am>100)
-                am=100;
-            if(am<-100)
-                am=-100;
-            v_amostra[i]=am;
-        }
-    }
-    fclose(arq);
-}
-
-//salva idct
-void salva(){
-    FILE *arq = fopen("output.dct", "wb");
-    fwrite(&tamanho, sizeof(unsigned int), 1, arq);
- 
-    signed short sv;
-    for(int i=0;i<tamanho;i++){
-        sv=v_idct[i];
-        //limites
-        if(sv<-100)
-            sv=-100;
-        if(sv>100)
-            sv=100;
-        fwrite(&sv, sizeof(signed short), 1, arq);
-    }
-    fclose(arq);
-}
-
 //funcao chamada toda vez que uma tecla for pressionada
 void keyboard(int key)
 {
@@ -264,11 +197,20 @@ int main(void)
 {
    initCanvas(1000,500, "Trabalho 1 - Transformada Discreta de Cosseno");
 
-   le_amostra();
-   dct();
-   idct();
-   calc_dif();
-   salva();
+   Arquivo a;
+
+   tamanho = a.getTamanho();
+
+   v_amostra.resize(tamanho);
+   v_dct.resize(tamanho);
+   v_idct.resize(tamanho);
+   v_dif.resize(tamanho);
+
+   v_amostra = a.le_amostra(tamanho);
+   v_dct = a.dct(v_amostra, tamanho);
+   v_idct = a.idct(v_dct, tamanho);
+   v_dif = a.calc_dif(v_amostra, v_idct, tamanho);
+   a.salva(v_idct, tamanho);
 
    runCanvas();
 }
