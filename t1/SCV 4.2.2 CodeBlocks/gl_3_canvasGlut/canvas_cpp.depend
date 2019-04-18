@@ -256,7 +256,7 @@
 1193146156 c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\gl_3_canvasglut\src\relogio.h
 	"gl_canvas2d.h"
 
-1555562122 source:c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\gl_3_canvasglut\src\main_cpp.cpp
+1555588115 source:c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\gl_3_canvasglut\src\main_cpp.cpp
 	<GL/glut.h>
 	<GL/freeglut_ext.h>
 	<iostream>
@@ -268,7 +268,7 @@
 	"gl_canvas2d.h"
 	"funcoes_cpp.h"
 
-1555562325 c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\gl_3_canvasglut\src\funcoes_cpp.h
+1555594157 c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\gl_3_canvasglut\src\funcoes_cpp.h
 	<cmath>
 	<math.h>
 	<vector>

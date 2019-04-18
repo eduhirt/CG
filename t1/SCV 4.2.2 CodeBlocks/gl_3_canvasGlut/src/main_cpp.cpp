@@ -45,11 +45,11 @@ int tamanho = 0;
 //globais que podem ser setadas pelo metodo keyboard()
 void render()
 {
-    //Area dos graficos
-    color(0.7,0.7,0.7);
+    //Container dos graficos
+    color(0.1,0.1,0.1);
     rectFill(0,0,500,250);
     
-    color(0.5,0.5,0.5);
+    color(0.3,0.3,0.3);
     rectFill(500,0,1000,250);
     
     color(0.3,0.3,0.3);
@@ -59,11 +59,9 @@ void render()
     rectFill(500,250,1000,500);
 
     //Titulo dos graficos
-    color(0,0,0);
+    color(1,1,1);
     text(200,230,"IDCT:");
     text(700,230,"Diff:");
-
-    color(1,1,1);
     text(200,480,"Amostra:");
     text(700,480,"DCT:");
 
@@ -77,13 +75,15 @@ void render()
     float prox_amostra;
     //Define onde o grafico fica no eixo y:
     int pos_y;
+    //Define os limites superiores e inferiores de x e y:
+    float lim_sup_x, lim_sup_y, lim_inf_x, lim_inf_y;
 
 
     pos_y = 120;
 
 
     //IDCT
-    color(0,0,0);
+    color(1,0,1);
     aux = tam_x + 20;
 
     for(int i=0;i<(tamanho);i++){
@@ -97,6 +97,16 @@ void render()
 
         aux = aux+tam_x;
     }
+
+    //Desenha as bases do grafico
+    lim_sup_x = aux;
+    lim_sup_y = pos_y + 128*0.5;
+    lim_inf_x = tam_x + 20;
+    lim_inf_y = pos_y - 127*0.5;
+
+    color(0.5,0.5,0.5);
+    line(lim_inf_x,pos_y,aux,pos_y);
+    line(lim_inf_x, lim_inf_y, lim_inf_x, lim_sup_y);
 
 
     //Diff
@@ -115,8 +125,18 @@ void render()
         aux = aux+tam_x;
     }
 
+    //Desenha as bases do grafico
+    lim_sup_x = aux;
+    lim_sup_y = pos_y + 128*0.5;
+    lim_inf_x = tam_x + 520;
+    lim_inf_y = pos_y - 127*0.5;
 
-    pos_y = 370
+    color(0.5,0.5,0.5);
+    line(lim_inf_x, pos_y, aux, pos_y);
+    line(lim_inf_x, lim_inf_y, lim_inf_x, lim_sup_y);
+
+
+    pos_y = 370;
 
 
     //Amostra
@@ -135,6 +155,16 @@ void render()
         aux = aux+tam_x;
     }
 
+    //Desenha as bases do grafico
+    lim_sup_x = aux;
+    lim_sup_y = pos_y + 128*0.5;
+    lim_inf_x = tam_x + 20;
+    lim_inf_y = pos_y - 127*0.5;
+
+    color(0.5,0.5,0.5);
+    line(lim_inf_x,pos_y,aux,pos_y);
+    line(lim_inf_x ,lim_inf_y ,lim_inf_x ,lim_sup_y);
+
 
     //DCT
     color(0,1,1);
@@ -151,6 +181,16 @@ void render()
 
         aux = aux+tam_x;
     }
+
+    //Desenha as bases do grafico
+    lim_sup_x = aux;
+    lim_sup_y = pos_y + 128*0.5;
+    lim_inf_x = tam_x + 520;
+    lim_inf_y = pos_y - 127*0.5;
+
+    color(0.5,0.5,0.5);
+    line(lim_inf_x, pos_y, aux,pos_y);
+    line(lim_inf_x ,lim_inf_y, lim_inf_x ,lim_sup_y);
 }
 
 

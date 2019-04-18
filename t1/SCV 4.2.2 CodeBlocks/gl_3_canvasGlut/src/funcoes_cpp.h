@@ -15,7 +15,7 @@ public:
 	    std::vector<float> v_dif;
 	    v_dif.resize(tamanho);
 
-	    for(int i=0;i<tamanho;i++){
+	    for(int i=1;i<tamanho;i++){
 	        aux=fabs((double)(v_amostra[i]-v_idct[i]));
 	        v_dif[i]=aux;
 	    }
@@ -94,7 +94,7 @@ public:
 	            fread(&am, sizeof(signed char), 1, arq);
 	            //Adicionada escala de 50% nos dados
 	            if(i>3){
-	            	v_amostra[i-4]=am/1.5;
+	            	v_amostra[i-4]=am*0.5;
 	            }
 	            
 	        }
