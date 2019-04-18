@@ -67,15 +67,19 @@ void render()
     text(200,480,"Amostra:");
     text(700,480,"DCT:");
 
-    //Define a escala no eixo X
+    //Define a escala no eixo X:
     float tam_x = tamanho/9;
-    //Auxiliar para contagem de espaçamentos
+    //Auxiliar para contagem de espaçamentos:
     float aux;
-    //Define a posição dos dados no eixo Y
+    //Define a posição dos dados no eixo Y:
     float amostra;
-    //Auxiliar para ligação dos pontos
+    //Auxiliar para ligação dos pontos:
     float prox_amostra;
+    //Define onde o grafico fica no eixo y:
+    int pos_y;
 
+
+    pos_y = 120;
 
 
     //IDCT
@@ -83,25 +87,8 @@ void render()
     aux = tam_x + 20;
 
     for(int i=0;i<(tamanho);i++){
-        amostra = v_idct[i] + 120;
-        prox_amostra = v_idct[i+1] + 120;
-
-        circleFill(aux,amostra,2,10);
-        if(i<tamanho-1){
-            line(aux,amostra,aux+tam_x,prox_amostra);
-        }
-
-        aux = aux+tam_x;
-    }
-
-
-    //Amostra
-    color(1,0,0);
-    aux = tam_x + 20;
-
-    for(int i=0;i<(tamanho);i++){
-        amostra = v_amostra[i] + 370;
-        prox_amostra = v_amostra[i+1] + 370;
+        amostra = v_idct[i] + pos_y;
+        prox_amostra = v_idct[i+1] + pos_y;
 
         circleFill(aux,amostra,2,10);
         if(i<tamanho-1){
@@ -117,8 +104,8 @@ void render()
     aux = tam_x + 520;
 
     for(int i=0;i<(tamanho);i++){
-        amostra = v_dif[i] + 120;
-        prox_amostra = v_dif[i+1] + 120;
+        amostra = v_dif[i] + pos_y;
+        prox_amostra = v_dif[i+1] + pos_y;
 
         circleFill(aux,amostra,2,10);
         if(i<tamanho-1){
@@ -127,6 +114,27 @@ void render()
 
         aux = aux+tam_x;
     }
+
+
+    pos_y = 370
+
+
+    //Amostra
+    color(1,0,0);
+    aux = tam_x + 20;
+
+    for(int i=0;i<(tamanho);i++){
+        amostra = v_amostra[i] + pos_y;
+        prox_amostra = v_amostra[i+1] + pos_y;
+
+        circleFill(aux,amostra,2,10);
+        if(i<tamanho-1){
+            line(aux,amostra,aux+tam_x,prox_amostra);
+        }
+
+        aux = aux+tam_x;
+    }
+
 
     //DCT
     color(0,1,1);
@@ -143,8 +151,6 @@ void render()
 
         aux = aux+tam_x;
     }
-    
-
 }
 
 
@@ -175,6 +181,7 @@ int main(void)
 
    tamanho = a.getTamanho();
 
+   //Define o tamanho dos vectors com base no tamanho do arquivo
    v_amostra.resize(tamanho);
    v_dct.resize(tamanho);
    v_idct.resize(tamanho);
