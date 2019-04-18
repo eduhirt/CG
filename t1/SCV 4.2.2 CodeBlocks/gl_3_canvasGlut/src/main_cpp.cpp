@@ -23,22 +23,21 @@
 #include <vector>
 #include "gl_canvas2d.h"
 #include "funcoes_cpp.h"
+#include "grafico.h"
 
 # define M_PI           3.14159265358979323846
 
 using namespace std;
 
 //vetores
-std::vector<signed char> v_amostra;
-std::vector<float> v_dct, v_idct, v_dif;
+std::vector<int> v_amostra;
+std::vector<float> v_dct, v_idct, v_dif, v_amostra_escalonada;
+
+//objeto da classe Grafico
+Grafico g;
 
 //tamanho da amostra
 int tamanho = 0;
-
-//#pragma comment(lib, "opengl32.lib")
-//#pragma comment(lib, "glu32.lib")
-//#pragma comment(lib, "glaux.lib")
-//#pragma comment(lib, "glut32.lib")
 
 
 //funcao chamada continuamente. Deve-se controlar o que desenhar por meio de variaveis
@@ -64,133 +63,19 @@ void render()
     text(700,230,"Diff:");
     text(200,480,"Amostra:");
     text(700,480,"DCT:");
-
-    //Define a escala no eixo X:
-    float tam_x = tamanho/9;
-    //Auxiliar para contagem de espaçamentos:
-    float aux;
-    //Define a posição dos dados no eixo Y:
-    float amostra;
-    //Auxiliar para ligação dos pontos:
-    float prox_amostra;
-    //Define onde o grafico fica no eixo y:
-    int pos_y;
-    //Define os limites superiores e inferiores de x e y:
-    float lim_sup_x, lim_sup_y, lim_inf_x, lim_inf_y;
-
-
-    pos_y = 120;
-
-
+ 
     //IDCT
-    color(1,0,1);
-    aux = tam_x + 20;
-
-    for(int i=0;i<(tamanho);i++){
-        amostra = v_idct[i] + pos_y;
-        prox_amostra = v_idct[i+1] + pos_y;
-
-        circleFill(aux,amostra,2,10);
-        if(i<tamanho-1){
-            line(aux,amostra,aux+tam_x,prox_amostra);
-        }
-
-        aux = aux+tam_x;
-    }
-
-    //Desenha as bases do grafico
-    lim_sup_x = aux;
-    lim_sup_y = pos_y + 128*0.5;
-    lim_inf_x = tam_x + 20;
-    lim_inf_y = pos_y - 127*0.5;
-
-    color(0.5,0.5,0.5);
-    line(lim_inf_x,pos_y,aux,pos_y);
-    line(lim_inf_x, lim_inf_y, lim_inf_x, lim_sup_y);
-
-
-    //Diff
-    color(0,0,1);
-    aux = tam_x + 520;
-
-    for(int i=0;i<(tamanho);i++){
-        amostra = v_dif[i] + pos_y;
-        prox_amostra = v_dif[i+1] + pos_y;
-
-        circleFill(aux,amostra,2,10);
-        if(i<tamanho-1){
-            line(aux,amostra,aux+tam_x,prox_amostra);
-        }
-
-        aux = aux+tam_x;
-    }
-
-    //Desenha as bases do grafico
-    lim_sup_x = aux;
-    lim_sup_y = pos_y + 128*0.5;
-    lim_inf_x = tam_x + 520;
-    lim_inf_y = pos_y - 127*0.5;
-
-    color(0.5,0.5,0.5);
-    line(lim_inf_x, pos_y, aux, pos_y);
-    line(lim_inf_x, lim_inf_y, lim_inf_x, lim_sup_y);
-
-
-    pos_y = 370;
-
-
-    //Amostra
-    color(1,0,0);
-    aux = tam_x + 20;
-
-    for(int i=0;i<(tamanho);i++){
-        amostra = v_amostra[i] + pos_y;
-        prox_amostra = v_amostra[i+1] + pos_y;
-
-        circleFill(aux,amostra,2,10);
-        if(i<tamanho-1){
-            line(aux,amostra,aux+tam_x,prox_amostra);
-        }
-
-        aux = aux+tam_x;
-    }
-
-    //Desenha as bases do grafico
-    lim_sup_x = aux;
-    lim_sup_y = pos_y + 128*0.5;
-    lim_inf_x = tam_x + 20;
-    lim_inf_y = pos_y - 127*0.5;
-
-    color(0.5,0.5,0.5);
-    line(lim_inf_x,pos_y,aux,pos_y);
-    line(lim_inf_x ,lim_inf_y ,lim_inf_x ,lim_sup_y);
-
+    g.desenha_grafico(tamanho, 20, 120, v_idct);
 
     //DCT
-    color(0,1,1);
-    aux = tam_x + 520;
+    g.desenha_grafico(tamanho, 520, 370, v_dct);
 
-    for(int i=0;i<(tamanho);i++){
-        amostra = v_dct[i] + 370;
-        prox_amostra = v_dct[i+1] + 370;
+    //AMOSTRA
+    g.desenha_grafico(tamanho, 20, 370, v_amostra_escalonada);
 
-        circleFill(aux,amostra,2,10);
-        if(i<tamanho-1){
-            line(aux,amostra,aux+tam_x,prox_amostra);
-        }
+    //DIF
+    g.desenha_grafico(tamanho, 520, 120, v_dif);
 
-        aux = aux+tam_x;
-    }
-
-    //Desenha as bases do grafico
-    lim_sup_x = aux;
-    lim_sup_y = pos_y + 128*0.5;
-    lim_inf_x = tam_x + 520;
-    lim_inf_y = pos_y - 127*0.5;
-
-    color(0.5,0.5,0.5);
-    line(lim_inf_x, pos_y, aux,pos_y);
-    line(lim_inf_x ,lim_inf_y, lim_inf_x ,lim_sup_y);
 }
 
 
@@ -222,15 +107,16 @@ int main(void)
    tamanho = a.getTamanho();
 
    //Define o tamanho dos vectors com base no tamanho do arquivo
-   v_amostra.resize(tamanho);
+   v_amostra_escalonada.resize(tamanho);
    v_dct.resize(tamanho);
    v_idct.resize(tamanho);
    v_dif.resize(tamanho);
 
    v_amostra = a.le_amostra(tamanho);
-   v_dct = a.dct(v_amostra, tamanho);
+   v_amostra_escalonada = a.escalona_amostra(tamanho, v_amostra);
+   v_dct = a.dct(v_amostra_escalonada, tamanho);
    v_idct = a.idct(v_dct, tamanho);
-   v_dif = a.calc_dif(v_amostra, v_idct, tamanho);
+   v_dif = a.calc_dif(v_amostra_escalonada, v_idct, tamanho);
    a.salva(v_idct, tamanho);
 
    runCanvas();

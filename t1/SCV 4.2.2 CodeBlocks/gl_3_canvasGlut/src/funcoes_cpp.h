@@ -10,12 +10,12 @@ class Arquivo{
 public:
 
 	//calcula a diferença entre amostra e idct
-	std::vector<float> calc_dif(std::vector<signed char> v_amostra, std::vector<float> v_idct, int tamanho){
+	std::vector<float> calc_dif(std::vector<float> v_amostra, std::vector<float> v_idct, int tamanho){
 	    double aux;
 	    std::vector<float> v_dif;
 	    v_dif.resize(tamanho);
 
-	    for(int i=1;i<tamanho;i++){
+	    for(int i=0;i<tamanho;i++){
 	        aux=fabs((double)(v_amostra[i]-v_idct[i]));
 	        v_dif[i]=aux;
 	    }
@@ -37,14 +37,8 @@ public:
 
 
 	    for(int i=0; i<tamanho; i++){
-	        if(i==0){
-	            c=1/sqrt(2);
-	        }
-	        else{
-	            c=1;
-	        }
 	        for(int j=0; j<tamanho; j++){
-	            v_idct[i] += (double) v_dct[j] * cos((double) ((2.0*i+1) *j* pi/(2*tamanho))) *c;
+	            v_idct[i] += (double) v_dct[j] * cos((double) ((2.0*i+1) *j* pi/(2*tamanho)));
 	        }
 	        v_idct[i] *= sqrt((double)2/tamanho);
 	    }
@@ -54,35 +48,26 @@ public:
 
 
 	//calcula a dct para depois calcular a idct
-	std::vector<float> dct(std::vector<signed char> v_amostra, int tamanho){
+	std::vector<float> dct(std::vector<float> v_amostra, int tamanho){
 	    double c;
 	    double pi = M_PI;
 	    std::vector<float> v_dct;
 	    v_dct.resize(tamanho);
 
-	    for(int x=0;x<tamanho;x++)
-	        v_dct[x]=0;
-
 	    for(int i=0; i<tamanho; i++){
-	        if(i==0)
-	            c=1/sqrt(2);
-	        else
-	            c=1;
-
 	        for(int j=0; j<tamanho; j++){
-	            v_dct[i] += (double) v_amostra[j] * cos((double) ((2*j+1)*pi*i/(2*tamanho))) *c;
+	            v_dct[i] += (double) v_amostra[j] * cos((double) ((2*j+1)*pi*i/(2*tamanho)));
 	        }
 	    v_dct[i] *= sqrt((double)2/tamanho);
 	    }
-
 	    return v_dct;
 	}
 
 
 
 	//le arquivo
-	std::vector<signed char> le_amostra(int tamanho){
-		std::vector<signed char> v_amostra;
+	std::vector<int> le_amostra(int tamanho){
+		std::vector<int> v_amostra;
 	    FILE *arq = fopen("input.dct", "rb");
 	    v_amostra.resize(tamanho);
 
@@ -94,14 +79,25 @@ public:
 	            fread(&am, sizeof(signed char), 1, arq);
 	            //Adicionada escala de 50% nos dados
 	            if(i>3){
-	            	v_amostra[i-4]=am*0.5;
+	            	v_amostra[i-4]=am;
 	            }
-	            
 	        }
 	    }
 	    fclose(arq);
 	    return v_amostra;
 	}
+
+
+
+	std::vector<float> escalona_amostra(int tamanho, std::vector<int> v_amostra){
+		std::vector<float> v_amostra_escalonada;
+		v_amostra_escalonada.resize(tamanho);
+		for(int i=0;i<tamanho;i++){
+		    	v_amostra_escalonada[i] = v_amostra[i]*0.5;
+		}
+		return v_amostra_escalonada;
+	}
+
 
 
 

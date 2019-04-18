@@ -1,0 +1,113 @@
+# depslib dependency file v1.0
+1523930226 source:c:\users\eduar\desktop\t1 - eduardo hirt\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1467405838 c:\users\eduar\desktop\t1 - eduardo hirt\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 c:\users\eduar\desktop\t1 - eduardo hirt\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 c:\users\eduar\desktop\t1 - eduardo hirt\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1107048920 c:\users\eduar\desktop\t1 - eduardo hirt\include\gl\gl.h
+
+1107048920 c:\users\eduar\desktop\t1 - eduardo hirt\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1426358040 c:\users\eduar\desktop\t1 - eduardo hirt\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1555598337 source:c:\users\eduar\desktop\t1 - eduardo hirt\src\main_cpp.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<iostream>
+	<cmath>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	"gl_canvas2d.h"
+	"funcoes_cpp.h"
+	"grafico.h"
+
+1555598091 c:\users\eduar\desktop\t1 - eduardo hirt\src\funcoes_cpp.h
+	<cmath>
+	<math.h>
+	<vector>
+
+1555598358 c:\users\eduar\desktop\t1 - eduardo hirt\src\grafico.h
+	"gl_canvas2d.h"
+
+1523930226 source:c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\t1 - eduardo hirt\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1467405838 c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\t1 - eduardo hirt\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+
+1426358040 c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\t1 - eduardo hirt\include\gl\glut.h
+	"freeglut_std.h"
+
+1437565542 c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\t1 - eduardo hirt\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1107048920 c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\t1 - eduardo hirt\include\gl\gl.h
+
+1107048920 c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\t1 - eduardo hirt\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1426358040 c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\t1 - eduardo hirt\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1555598337 source:c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\t1 - eduardo hirt\src\main_cpp.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<iostream>
+	<cmath>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	"gl_canvas2d.h"
+	"funcoes_cpp.h"
+	"grafico.h"
+
+1555598091 c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\t1 - eduardo hirt\src\funcoes_cpp.h
+	<cmath>
+	<math.h>
+	<vector>
+
+1555598358 c:\users\eduar\documents\github\cg\t1\scv 4.2.2 codeblocks\t1 - eduardo hirt\src\grafico.h
+	"gl_canvas2d.h"
+
