@@ -147,32 +147,6 @@ void render()
 
 }
 
-//IMPLEMENTAR COM CLASSES
-
-// class Amostra{
-// public:
-//     Amostra(){
-//         FILE *arq = fopen("samples.dct", "rb");
-//         if(arq != NULL){
-//             fread(&tamanho, sizeof(unsigned int), 1, arq);
-
-//             v_amostra.resize(tamanho);
-//             v_dct.resize(tamanho);
-//             v_idct.resize(tamanho);
-//             v_dif.resize(tamanho);
-
-//             signed short am;
-//             for(int i=0;i<tamanho;i++){
-//                 fread(&am, sizeof(signed short), 1, arq);
-                
-//                 v_amostra[i]=am;
-//             }
-//         }
-//         fclose(arq);
-//     }
-// };
-
-
 
 //funcao chamada toda vez que uma tecla for pressionada
 void keyboard(int key)
