@@ -87,7 +87,9 @@ public:
 	    v_amostra.resize(tamanho);
 
 	    if(arq != NULL){
+	    	//signed char = -127 a 128
 	        signed char am;
+	        //pular header
 	        for(int i=0;i<tamanho+4;i++){
 	            fread(&am, sizeof(signed char), 1, arq);
 	            //Adicionada escala de 50% nos dados
