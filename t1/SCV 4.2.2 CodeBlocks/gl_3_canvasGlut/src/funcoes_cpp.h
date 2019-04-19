@@ -122,7 +122,7 @@ public:
 	    signed char sv;
 	    for(int i=0;i<tamanho;i++){
 	    	//retorno da escala
-	        sv=v_idct[i]*1,5;
+	        sv=v_idct[i]*2;
 	        fwrite(&sv, sizeof(signed char), 1, arq);
 	    }
 	    fclose(arq);
